@@ -1,0 +1,31 @@
+h1{
+    color:red;
+}
+body{
+    background-color: beige;
+    padding:30px;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.nav-items{
+
+list-style: none;
+display:flex;
+font-weight:bold;
+
+}
+.nav-items > li{
+    padding:10px;
+
+}
+.nav-logo{
+    width:65px;
+}
+.footer{
+    background-color: gray;
+    padding:10px;
+    color:white;
+}
