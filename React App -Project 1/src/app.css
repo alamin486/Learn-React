@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+ body{
+    margin:0;
+    background-color: rgb(53, 54, 54);
+    
+}
+.Navbar{
+    display:flex;
+
+    justify-content:space-between;
+    background-color: rgba(5, 5, 5, 0.992);
+    
+    padding:15px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Navbar>img{
+  
+    width:65px;
+}
+.Navbar>h3{
+    color:rgb(14, 195, 231);
+ 
+
+}
+.nav--text{
+
+    color:white;
+    font-weight: lighter;
+}
+main{
+    padding: 57px 25px;
+    color:rgb(231, 231, 231);
+    background-image: url('./component/skill.png');
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: left 55%;
+    font-family: 'Courier New', Courier, monospace;
+    
+  
+}
+.main--title{
+    margin: 0;
+    font-size: 35px;
+}
+.li--list{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.li--list>li{
+    line-height:19px;
+    padding:3px;
+}
+.li--list>li::marker{
+    font-size:1.3rem;
+    color:rgb(16, 236, 229);
+   
+  
+}
