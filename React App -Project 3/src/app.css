@@ -1,0 +1,78 @@
+*{
+    box-sizing: 0;
+}
+body{
+    margin:0;
+    font-family: 'popping',sans-serif;
+    background-color: rgb(215, 191, 213);
+  
+}
+.img--logo{
+    width: 60px;
+    height: 60px;
+}
+.Navbar{
+    display: flex;
+    border: 3px solid green;
+    background-color: rgb(194, 214, 156);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.name--title{
+    font-size: 20px;
+}
+.text--nav{
+    color:rgb(240, 9, 124);
+    font-weight: bold;
+}
+.form{
+   
+    align-items: center;
+    padding:80px;
+    
+}
+.input--form1{
+    padding:10px;
+    height:25px;
+    width: 250px;
+    margin:3px;
+    border-radius: 5px;
+    border:2px solid green;
+}
+.input--form2{
+    padding:10px;
+    height:25px;
+    width: 250px;
+    margin: 3px;
+    border-radius: 5px;
+    border:2px solid green;
+   
+}
+.input--button{
+    padding:10px;
+    height:40px;
+    width: 554px;
+    margin: 3px;
+background-color: rgb(255, 0, 140);
+font-weight: bold;
+border-radius: 5px;
+color: white;
+border:2px solid green;
+
+}
+.img1{
+    display: flex;
+  align-content: center;
+   width: 30%;
+    padding-left: 123px;
+    flex: 0 1 100px;
+}
+.input--button:hover{
+    background-color: red;
+    border-color: rgb(255, 234, 0);
+}
+.input--form2:hover{
+    border-color: aqua;
+}
+.input--form1:hover{
+    border-color: aqua;
+}
